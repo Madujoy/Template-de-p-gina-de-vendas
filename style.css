@@ -33,20 +33,20 @@ body {
 }
 
 .btn.primary {
-    background-color: #f077be;
+    background-color: #0a0a0a;
     color: white;
 }
 
 .btn.primary:hover {
-    background-color: #ce6fc6;
+    background-color: #0c0c0c;
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .btn.secondary {
     background-color: transparent;
-    color: #f584dc;
-    border: 2px solid #ee84c2;
+    color: #fff8fe;
+    border: 2px solid #020202;
 }
 
 .btn.secondary:hover {
@@ -56,7 +56,7 @@ body {
 
 /* Cabeçalho */
 header {
-    background-color: white;
+    background-color: rgb(255, 251, 251);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     position: fixed;
     width: 100%;
@@ -72,7 +72,7 @@ header .container {
 }
 
 .logo h1 {
-    color: #d672c9;
+    color: #f70404;
     font-size: 28px;
 }
 
@@ -98,13 +98,13 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #f38cf3;
+    color: #af6262;
 }
 
 /* Seção Principal */
 .hero {
     padding: 150px 0 100px;
-    background: linear-gradient(135deg, #f188d7 0%, #a30c4b 100%);
+    background: linear-gradient(135deg, #be3b3b 0%, #a7a41d 100%);
     color: white;
     margin-top: 80px;
 }
@@ -162,7 +162,7 @@ section h2 {
 
 /* Seção Sobre */
 .about {
-    background-color: white;
+    background-color: rgb(128, 34, 34);
 }
 
 .features {
@@ -175,7 +175,7 @@ section h2 {
     text-align: center;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.05);
     transition: transform 0.3s ease;
 }
 
@@ -185,7 +185,7 @@ section h2 {
 
 .feature i {
     font-size: 48px;
-    color: #ee4399;
+    color: #fffb08;
     margin-bottom: 20px;
 }
 
@@ -196,7 +196,7 @@ section h2 {
 
 /* Seção de Cursos */
 .courses {
-    background-color: #f8f9fa;
+    background-color:  rgb(231, 62, 62);
 }
 
 .course-cards {
@@ -220,7 +220,7 @@ section h2 {
 .course-card h3 {
     font-size: 24px;
     margin-bottom: 15px;
-    color: #df6ab8;
+    color: #ffe604;
 }
 
 .course-card p {
@@ -240,20 +240,20 @@ section h2 {
 }
 
 .course-card ul li i {
-    color: #f386e1;
+    color: #ffee00;
     margin-right: 10px;
 }
 
 .price {
     font-size: 28px;
     font-weight: 700;
-    color: #ee6ba8;
+    color: #000000;
     margin: 20px 0;
 }
 
 /* Seção de Depoimentos */
 .testimonials {
-    background-color: white;
+    background-color: rgb(230, 64, 64);
 }
 
 .testimonial-cards {
@@ -306,7 +306,7 @@ section h2 {
 .contact-info h3 {
     font-size: 24px;
     margin-bottom: 20px;
-    color: #f87df8;
+    color: #f70303;
 }
 
 .contact-info p {
@@ -318,7 +318,7 @@ section h2 {
 
 .contact-info p i {
     margin-right: 10px;
-    color: #f17dd4;
+    color: #fc0000;
 }
 
 form {
@@ -339,13 +339,13 @@ form textarea {
 form input:focus,
 form textarea:focus {
     outline: none;
-    border-color: #ee43ac;
+    border-color: #f5f0f3;
 }
 
 /* Rodapé */
 footer {
     background-color: #222;
-    color: white;
+    color: rgb(250, 0, 0);
     padding: 50px 0 20px;
 }
 
@@ -357,7 +357,7 @@ footer {
 }
 
 .footer-logo h2 {
-    color: #ee43a7;
+    color: #f50707;
     margin-bottom: 10px;
 }
 
@@ -376,7 +376,7 @@ footer {
 }
 
 .footer-links ul li a {
-    color: #ccc;
+    color: #fdf6f6;
     text-decoration: none;
     transition: color 0.3s;
 }
@@ -391,7 +391,7 @@ footer {
 }
 
 .social-icons a {
-    color: white;
+    color: rgb(248, 242, 242);
     font-size: 20px;
     transition: color 0.3s;
 }
@@ -403,8 +403,8 @@ footer {
 .copyright {
     text-align: center;
     padding-top: 20px;
-    border-top: 1px solid #444;
-    color: #aaa;
+    border-top: 1px solid #e40e0e;
+    color: #ff0000;
 }
 
 /* Design Responsivo */
