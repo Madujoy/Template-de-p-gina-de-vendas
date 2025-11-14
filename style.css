@@ -104,7 +104,7 @@ nav ul li a:hover {
 /* Seção Principal */
 .hero {
     padding: 150px 0 100px;
-    background: linear-gradient(135deg, #be3b3b 0%, #a7a41d 100%);
+    background: linear-gradient(135deg, #000000 0%, #e60228 100%);
     color: white;
     margin-top: 80px;
 }
@@ -148,6 +148,8 @@ nav ul li a:hover {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
+
+
 /* Seções */
 section {
     padding: 80px 0;
@@ -162,7 +164,7 @@ section h2 {
 
 /* Seção Sobre */
 .about {
-    background-color: rgb(128, 34, 34);
+    background-color: rgb(231, 62, 62);
 }
 
 .features {
@@ -382,7 +384,7 @@ footer {
 }
 
 .footer-links ul li a:hover {
-    color: #dd6ba0;
+    color:  #ce0000;
 }
 
 .social-icons {
@@ -397,7 +399,7 @@ footer {
 }
 
 .social-icons a:hover {
-    color: #ee4393;
+    color: #ce0000;
 }
 
 .copyright {
