@@ -150,6 +150,7 @@ nav ul li a:hover {
 
 
 
+
 /* Seções */
 section {
     padding: 80px 0;
@@ -195,6 +196,17 @@ section h2 {
     font-size: 22px;
     margin-bottom: 15px;
 }
+
+.carlaodelas-image {
+    /* width: 200px;
+    height: 200px; */
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    margin-left: 500px;
+}
+
+
+
 
 /* Seção de Cursos */
 .courses {
